@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1667158417020,
+  "timestamp": 1667162368036,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -43,7 +43,22 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "CV",
+      "patterns": [
+        "\\/api\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -58,7 +73,7 @@
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/index.html": "51aa079efee828dacf9a8242e898bfd03097a796",
     "/main.c74ce672e990e1e5.js": "fcda2612666ceef5c2886ab6aba47cd3b7a10672",
-    "/manifest.webmanifest": "cea227ddb6aac190eb85f85a9c5a44820dcec5d4",
+    "/manifest.webmanifest": "556aa4249d3c2b25ea3665a4e07434c748ec6520",
     "/polyfills.1abc51184521c194.js": "256b97d6f7f157f8aabdeb2850309fd0d6911159",
     "/runtime.7bd6adebc488fbe7.js": "f693101e793b8a717b21453baea1317aac49d1b4",
     "/styles.5c595d31d935fedb.css": "61edd92dd6aaa0c5c8b231af60ddf0c47f88a33d"
