@@ -26,5 +26,17 @@
         ]
       }
     }
+  ],
+  "dataGroups":[
+    {
+      "name": "CV",
+      "urls": ["./api/**"],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxAge": "3d",
+        "maxSize": 100,
+        "timeout": "10s"
+      }
+    }
   ]
 }
