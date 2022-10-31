@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1667164332004,
+  "timestamp": 1667189779844,
   "index": "/CV/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/CV/favicon.ico",
         "/CV/index.html",
-        "/CV/main.c74ce672e990e1e5.js",
+        "/CV/main.173cf88931c94686.js",
         "/CV/manifest.webmanifest",
         "/CV/polyfills.1abc51184521c194.js",
         "/CV/runtime.7bd6adebc488fbe7.js",
@@ -38,6 +38,7 @@
         "/CV/assets/icons/icon-512x512.png",
         "/CV/assets/icons/icon-72x72.png",
         "/CV/assets/icons/icon-96x96.png",
+        "/CV/assets/images/cv.png",
         "/CV/assets/images/foto.png"
       ],
       "patterns": []
@@ -69,10 +70,11 @@
     "/CV/assets/icons/icon-512x512.png": "79cf2c29c8d6f01e181836af198c122b4f7745fb",
     "/CV/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/CV/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/CV/assets/images/cv.png": "caedd37134e9d8ee73fbcfee758a25ba466c754e",
     "/CV/assets/images/foto.png": "87291e922114c43b7effef2d803af0245783014e",
     "/CV/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/CV/index.html": "a58afee0bbe0938516a2fad7b62c49b21003489e",
-    "/CV/main.c74ce672e990e1e5.js": "fcda2612666ceef5c2886ab6aba47cd3b7a10672",
+    "/CV/index.html": "331ad571479d5561ed21e0962f0e2b7ae528fbcb",
+    "/CV/main.173cf88931c94686.js": "75cbd6376f8dfb14f151b53633b443044da5b3e4",
     "/CV/manifest.webmanifest": "556aa4249d3c2b25ea3665a4e07434c748ec6520",
     "/CV/polyfills.1abc51184521c194.js": "256b97d6f7f157f8aabdeb2850309fd0d6911159",
     "/CV/runtime.7bd6adebc488fbe7.js": "f693101e793b8a717b21453baea1317aac49d1b4",
