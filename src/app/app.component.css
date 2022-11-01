@@ -227,8 +227,8 @@ h1, .h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 4rem;
+  width: 4rem;
   background-color: #868686;
   color: rgb(0, 0, 0);
   border-radius: 100%;
@@ -244,7 +244,14 @@ h1, .h1 {
   font-size: 5rem;
   color: #ffffff;
 }
-
+.imagen{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+}
 section.resume-section {
   display: flex;
   align-items: center;
